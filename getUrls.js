@@ -6,6 +6,4 @@ var url = 'http://m.schoolinfo.go.kr/disclosure/topics/result?hgNmEncUri=%25EC%2
 request.get(url, function (error, response, html) {
     if (error) throw error;
     console.log(html);
-    console.log(html.text());
-    console.log(attr('href'));
 });

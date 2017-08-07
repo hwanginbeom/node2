@@ -7,7 +7,7 @@ let printHttpResponse = () => client.fetch(
     let aList = $("div.rc").find(".r").find("a");
     for(let i = 0 ; i < aList.length ; i++){
 console.log($(aList[i]).text());
-    console.log($(aList[i]).attr('href'));
+console.log($(aList[i]).attr('href'));
 }
   }
 );
